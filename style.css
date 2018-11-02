@@ -52,20 +52,20 @@ body
     {
       background-position: 0 100px;
     }
-    10%
+    25%
     {
       background-position: 0 100px;
     }
-    40%
+    50%
     {
-      background-position: 1000px -70px;
+      background-position: 500px -70px;
     }
-    80%
+    75%
     {
       background-position: 2000 -80px;
     }
     100%
     {
-      background-position: 2500 100px;
+      background-position: 2500 -100px;
     }
 }
