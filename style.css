@@ -19,7 +19,7 @@ body
   border-top-right-radius: 5px;
   background: url(coffee2.png);
   background-repeat: repeat-x;
-  animation: animate 12.5s linear infinite;
+  animation: animate 5s linear infinite;
   box-shadow: 0 0 0 6px #262626, 0 20px 35px rgba(0,0,0,.5);
 }
 .cup::before
@@ -50,11 +50,11 @@ body
 {
     0%
     {
-      background-position: 0 100px;
+      background-position: 0 120px;
     }
     25%
     {
-      background-position: 0 100px;
+      background-position: 250 100px;
     }
     50%
     {
@@ -66,6 +66,6 @@ body
     }
     100%
     {
-      background-position: 2500 -100px;
+      background-position: 0 120px;
     }
 }
