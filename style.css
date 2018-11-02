@@ -8,7 +8,7 @@ body
 {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%,-50%);
   width: 150px;
   height: 180px;
@@ -67,5 +67,60 @@ body
     100%
     {
       background-position: 0 120px;
+    }
+}
+
+.circle
+{
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  border: 6px solid #fff;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 0 0 0 6px #262626, 0 20px 35px rgba(0,0,0,.5);
+  background: url(beach2.png);
+  background-color: #498DFF;
+  animation: sky 5.5s 2s forwards infinite;
+}
+
+.sun
+{
+background-color: #ff8c1a;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+position: absolute;
+left: 50%;
+box-shadow: 0px 0px 5px 5px #ff8c1a;
+animation: sunset 15s forwards;
+}
+
+@keyframes sunset {
+  100%{
+    transform: translateY(750px);
+  }
+}
+
+@keyframes sky {
+    0%{
+      background-color: #ffd700;
+    }
+    25%{
+      background-color: #ffb90f;
+    }
+    50%{
+      background-color: #37A8E8;
+    }
+    75%{
+      background-color: #68228b;
+    }
+    100%{
+      background-color: #ffd700;
     }
 }
