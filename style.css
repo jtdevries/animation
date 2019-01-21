@@ -5,10 +5,9 @@ body {
   display: flex;
   flex-direction: row;
 }
-/*
+
 .card {
   background-color: transparent;
-
   width: 200px;
   height: 250px;
   perspective: 1000px;
@@ -47,9 +46,9 @@ body {
   transform: rotateY(180deg);
   z-index: 1;
 }
-*/
 
-a
+
+/* a
 {
 height: 50px;
 width: 130px;
@@ -190,5 +189,4 @@ animation: sunset 15s forwards;
     100%{
       background-color: #ffd700;
     }
-}
-
+} */
